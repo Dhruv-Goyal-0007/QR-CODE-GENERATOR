@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>QR Code Generator</h1>
+        <p>Paste a URL or enter text to create a QR code</p>
+      </header>
+      <div class="form">
+        <div class="input-field">
+          <i class="fas fa-link"></i>
+          <input type="text" spellcheck="false" placeholder="Enter text or URL" id="qrInput">
+        </div>
+        <button id="generateBtn"><i class="fas fa-qrcode"></i> Generate QR Code</button>
+      </div>
+      <div class="divider"></div>
+      <div class="qr-code">
+        <img src="path/to/generated-qrcode.png" alt="qr-code" id="qrImg">
+      </div>
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+
+      <!-- Contact Info Section -->
+      <footer>
+        <div class="contact-info">
+          <p><strong>Dhruv Goyal</strong></p>
+          <p><strong>Email:</strong> <a href="mailto:dhruvgoyal214735@gmail.com">dhruvgoyal214735@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+91 7009346270">+91 7009346270</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dhruv-goyal-3bba09274/" target="_blank">https://www.linkedin.com/in/dhruv-goyal-3bba09274/</a></p>
+        </div>
+        <p>© 2024 QR Generator. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
